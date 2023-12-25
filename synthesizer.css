@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Comic Sans MS";
+    src: url(font/Comic-Sans-MS.ttf);
+    font-weight: 700;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 1440px;
+    height: 112px;
+    background-color: #FFFFF0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 350px;
+}
+
+h1 {
+    display: flex;
+    font-family: "Comic Sans MS Regular", "Comic Sans MS";
+    color: #BC8F8F;
+    align-items: center;
+    font-weight: 900;
+    font-size: 48px;
+}
