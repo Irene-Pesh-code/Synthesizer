@@ -1,12 +1,18 @@
 function playSound(keyCode) {
     let audio;
 
-    if  (keyCode === '65') {
-        audio = new Audio('sounds/path_to_sound_for_A.mp3');
-    } else if (keyCode === '83') {
-        audio = new Audio('sounds/path_to_sound_for_S.mp3');
-    } else if (keyCode === '68') {
-        audio = new Audio('sounds/path_to_sound_for_D.mp3');
+    if  (keyCode === '81') {
+        audio = new Audio('sounds/Emin-Blue-Christmas-for-Q.mp3');
+    } else if (keyCode === '87') {
+        audio = new Audio('sounds/Iamalex-Meadow-for-W.mp3');
+    } else if (keyCode === '69') {
+        audio = new Audio('sounds/path_to_sound-for-E.mp3');
+    } else if (keyCode === '82') {
+        audio = new Audio('sounds/path_to_sound-for-R.mp3');
+    } else if (keyCode === '54') {
+        audio = new Audio('sounds/path_to_sound-for-T.mp3');
+    } else if (keyCode === '89') {
+        audio = new Audio('sounds/path_to_sound-for-Y.mp3');
     }
     if (audio) {
         audio.play();
